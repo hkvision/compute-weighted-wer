@@ -1,0 +1,36 @@
+Ivan_seg_0299	然 后 同 时 呢 如 果 是 与 我 们 的 这 个 更 强 1 代 的 xe 也 就 是 arrow lake  h 去 相 比 的 话 然 后 我 们 可 以 获 得
+seg_12_24_15_04_506	准 备 启 动 了 已 经 是 不 是 讨 论 准 备 启 动 了 啊 这 也 是 好 消 息 咱 们 不 用 网 络 去 推 给 极 空 间 推 panther lake 了 啊 啊 之 前 是 跟 你 说 过 他 们 已 经 在 在 在 开 始 规 划 跟 开 始 对 吧 就 在 推 动 当 时 是
+seg_12_24_15_04_499	呃 呃 那 个 helicon search 的 video 那 个 先 发 给 h 1 了 让 他 们 消 化 1 下 还 没 发 啊 晚 上 发 啊 晚 上 发 啊 就 让 他 们 消 化 1 下 那 其 实 大 概 的 模 式 就 是 说 他 的 player 要 把 helicon search 要 整 合 进 去 啊 因 为
+seg_12_24_15_04_087	尽 快 把 helicon search 完 全 集 成 到 你 的 软 件 给 用 户 提 供 1 个 方 便 易 用 的 1 个 呃 窗 口 是 吧 因 为 这 个 ui 设 计 跟 你 们 的 ui 啊 明 白 好 吧 没 有 没 问 题 唉 呃 呃 这 这 这 块 我 我 们 现 在
+seg_12_24_15_04_502	我 把 我 实 代 化 的 这 个 数 据 索 引 啊 我 这 个 本 地 的 视 频 是 不 是 开 放 给 爱 奇 艺 这 个 是 1 个 question mark 就 不 知 道 但 是 呢 我 们 想 先 做 1 步 如 果 爱 奇 艺 愿 意 把 我 们 的 helicon search 集 成 进 去 我 们 做 1 个 poc 啊 然 后
+seg_12_24_15_04_498	先 先 做 个 poc 吧 啊 先 看 看 这 个 部 分 就 是 呃 这 个 但 还 是 helicon search 相 关 就 是 我 们 在 呃 美 众 这 边 已 经 在 把 helicon search 的 1 部 分 介 绍 包 括 我 们 之 前 峰 会 的 1 个
+seg_12_24_15_04_039	把 这 个 架 构 理 清 楚 就 针 对 他 这 个 ai 软 件 处 理 我 们 怎 么 去 利 用 我 们 的 helicon search 怎 么 去 做 处 理 怎 么 去 做 管 理 是 吧 那 刚 才 第 2 个 呢 就 刚 才 也 谈 了 呃 呃 断 讲 了 其 实 这 个 做 实 量 处 理 不 消 耗
+seg_12_24_15_04_002	现 在 是 大 概 框 架 是 做 成 什 么 样 子 能 介 绍 1 下 吗 另 外 1 个 就 是 因 为 你 要 用 helicon search 嘛 是 吧 是 怎 么 用 的 呃 能 够 再 说 1 下 吗 大 家 不 造 想
+fan_seg_0643	目 前 我 们 可 能 需 要 去 研 究 1 下 我 们 这 个 千 比 如 说 我 们 大 概 的 千 问 3 3 b 这 样 模 型
+fan_seg_0449	比 如 说 我 的 那 个 m 那 个 千 问 千 千 问 3 0 b 的 那 个 模 型 我 8 个
+fan_seg_0436	比 如 像 千 问 3 0 b 这 种 它 里 面 就 没 有 血 雷
+Ivan_seg_0097	besize 这 个 4 个 xe core 的 配 置 呢 然 后 我 们 同 时 也 提 供 了 1 个 1 2 个 xe core 的 1 个 gpu 配 置 在 这 个 1 2 xe core 的 gpu 配 置 当 中 呢 我 们 提 供 了 更 强 的 1 个 计 算 能 力 大 家 可 以 看 到 在 这 个
+Ivan_seg_0029	这 个 panther lake 上 其 实 我 们 也 是 提 供 了 我 们
+Ivan_seg_0351	in in lunar  lake 也 就 是 我 们 的 npo four 和 我 们 的 panther lake 也 就 是 npo five 之 间 做 了 1 个 简 单 的 比 较
+Ivan_seg_0080	panther  lake 的 gpu 其 实
+seg_12_18_15_03_549	带 宽 有 限 的 panther lake 1 2 xe 然 后 还 有 panther lake 4 0 4 h
+Ivan_seg_0394	对 就 是 我 刚 才 说 的 其 实 panther lake 相 当 于 lunar lake 最 大 的 亮 点 就 是 大 于 4 0 个 percent 的
+seg_12_24_15_04_701	呃 就 我 我 感 觉 好 像 是 不 是 铁 威 马 和 flowy 不 知 道 他 们 在 做 啥 应 该 heliconther 应 该 是 铁 威 马 自 己 在 做 了 应 该 flowy 不 帮 他 节 省 了 就 是 没 有 如 果 这 样 子 的 啊 这 样 子 吧 那 那 块 我 们 不 是
+seg_12_24_15_04_720	合 的 除 了 我 要 给 搞 定 那 个 sow 跟 铁 威 马 的 sow 我 我 尽 快 搞 清 不 好 意 思
+seg_12_24_15_04_730	在 consult 1 下 没 有 用 你 的 方 案 这 就 不 是 1 个 support 不 是 的 我 我 是 这 样 就 是 所 以 在 我 想 跟 大 家 说 的 就 是 呃 那 个 就 包 括 那 个 铁 威 马 这 个 需 求 他 现 在 用 1 部 分 他 不 需 要 游 泳 权 的 在 这 个 时 候 我 们 更 多 的 是 怎 么 去 支 持 客 户
+seg_12_24_15_04_714	gary 就 是 就 是 接 是 说 半 天 刚 刚 才 说 的 balance 就 是 铁 威 马 的 因 为 代 码 就 不 是 不 是 代 码 呀 那 个 东 西 给 他 也 有 两 周 了 吧 那 1 1 周 多 吧 他 都
+Ivan_seg_0065	我 们 是 如 何 将 xexe two 的 图 形 架 构 和 ai 功 能
+Ivan_seg_0136	呃 在 我 们 的 xe three 当 中
+Ivan_seg_0041	xe 3
+Ivan_seg_0311	第 3 代 的 xe 核 心 包 括 我 们 的 xe 矩 阵 扩 展
+Ivan_seg_0293	嗯 所 以 说 我 们 的 xe three 如 果 是 跟 我 们 前 1 代 的 lunar lake xe  two 相 比
+seg_01_21_16_11_003	this is the new tesla model s plaid and it is an absolute marvel of well everything but it is especially known for speed this does 0 to 6 0 in 2 seconds yes you heard that right
+luvvoice.com-20260121-HPL3hh	在 很 多 华 语 乐 迷 心 中 she 不 只 是 1 个 组 合 名 字 更 代 表 了 1 整 个 时 代 的 青 春 回 忆
+luvvoice.com-20260121-XwsbZb	我 最 近 换 了 1 部 苹 果 iphone se 不 仅 运 行 速 度 很 快 而 且 尺 寸 也 非 常 适 合 单 手 操 作
+seg_01_21_16_11_084	yes i did it it has been a week since i moved to the iphone se 2 0 2 2 from the 1 6 pro and it was not all sunshine and rainbow as i thought
+1	the exam instructions state that section s is optional and offers extra challenges for students aiming for higher scores
+seg_01_21_16_11_018	sow is a detailed and structure statement of what is required it is often stated in terms of the work to be carried out the products to be created
+Recording13	this camera belongs to the alpha s series and performs especially well when shooting in low light conditions
+Recording12	in the update log the software clearly label is version s to let users know this is a stable release
+seg_01_21_16_11_046	i think one of the most common myths i hear about standard operating procedures is that standard operating procedures or s ops take a really long time and the fact is the way most people suggest creating s ops they do take a really long time and
+seg_01_21_16_21_007	我 我 最 近 换 了 1 部 苹 果 iphone se 不 仅 运 行 速 度 很 快 而 且 尺 寸 也 非 常 适 合 单 手 操 作

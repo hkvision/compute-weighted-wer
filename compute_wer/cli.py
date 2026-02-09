@@ -42,7 +42,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 @click.option("--ignore-file", "-ig", type=click.Path(exists=True, dir_okay=False), help="Path to the ignore file.")
 @click.option("--max-wer", "-mw", type=float, default=sys.maxsize, help="Filter hypotheses with WER <= this value.")
 @click.option("--verbose", "-v", is_flag=True, default=True, help="Print verbose output.")
-def main(ref, hyp, output_file, align_to_hyp, char, sort, case_sensitive, remove_tag, ignore_file, max_wer, verbose):
+@click.option("--hotword-file", "-hw", type=click.Path(exists=True, dir_okay=False), help="Path to the hotwords file.")
+def main(ref, hyp, output_file, align_to_hyp, char, sort, case_sensitive, remove_tag, ignore_file, max_wer, verbose, hotword_file):
     input_is_file = os.path.exists(ref)
     assert os.path.exists(hyp) == input_is_file
 
@@ -52,7 +53,17 @@ def main(ref, hyp, output_file, align_to_hyp, char, sort, case_sensitive, remove
             word = line.strip()
             if len(word) > 0:
                 ignore_words.add(word if case_sensitive else word.upper())
-    calculator = Calculator(char, case_sensitive, remove_tag, ignore_words, max_wer)
+    
+    # --- 新增: 加载热词列表 ---
+    hotwords = set()
+    if hotword_file:
+        with codecs.open(hotword_file, encoding="utf-8") as f:
+            for line in f:
+                hw = line.strip()
+                if hw:
+                    hotwords.add(hw if case_sensitive else hw.upper())
+    
+    calculator = Calculator(char, case_sensitive, remove_tag, ignore_words, max_wer, hotwords=hotwords)
 
     wers = []
     if input_is_file:

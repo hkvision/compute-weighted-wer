@@ -205,6 +205,7 @@ def wer(
     case_sensitive: bool = False,
     remove_tag: bool = False,
     ignore_words: set = None,
+    **kwargs
 ) -> WER:
     """
     Calculate the WER and align the reference and hypothesis.
@@ -221,4 +222,4 @@ def wer(
     """
     reference = normalize(reference, to_char, case_sensitive, remove_tag, ignore_words)
     hypothesis = normalize(hypothesis, to_char, case_sensitive, remove_tag, ignore_words)
-    return WER(reference, hypothesis)
+    return WER(reference, hypothesis, **kwargs)

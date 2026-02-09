@@ -29,6 +29,7 @@ class Calculator:
         remove_tag: bool = False,
         ignore_words: set = set(),
         max_wer: float = sys.maxsize,
+        hotwords: set = set(),
     ):
         """
         Calculate the WER and align the reference and hypothesis.
@@ -42,7 +43,7 @@ class Calculator:
             ignore_words: The words to ignore.
         """
         self.wer = partial(
-            wer, to_char=to_char, case_sensitive=case_sensitive, remove_tag=remove_tag, ignore_words=ignore_words
+            wer, to_char=to_char, case_sensitive=case_sensitive, remove_tag=remove_tag, ignore_words=ignore_words, hotwords=hotwords
         )
         self.clusters = defaultdict(set)
         self.tokens = defaultdict(WER)
