@@ -138,7 +138,7 @@ def read_scp(scp_path: str) -> Dict[str, str]:
     """
     utt2text = {}
     for line in codecs.open(scp_path, encoding="utf-8"):
-        arr = line.strip().split(maxsplit=1)
+        arr = line.strip().split("\t", maxsplit=1)
         if len(arr) == 0:
             continue
         utt, text = arr[0], arr[1] if len(arr) > 1 else ""
