@@ -75,8 +75,9 @@ class WER:
                     if i in hot_indices:
                         weight = 10
                 else:
-                    # 针对插入错误：如果插入点前后有热词，认为受热词影响，权重为 10
-                    if (i in hot_indices) or (i > 0 and (i - 1) in hot_indices):
+                    # 针对插入错误：仅当插入点紧接在热词之后，认为受热词影响，权重为 10
+                    # 注意：不对"热词之前的插入"加权，否则句首热词会导致所有句首插入都被错误地赋高权重
+                    if i > 0 and (i - 1) in hot_indices:
                         weight = 10
 
                 # 应用权重：修改对象本身的属性
@@ -115,7 +116,7 @@ class WER:
 
     @property
     def all(self) -> int:
-        return self.equal + self.replace + self.delete
+        return self.equal + self.replace + self.delete + self.insert
 
     @property
     def wer(self) -> float:
