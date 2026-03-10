@@ -1,9 +1,8 @@
 千问
-Xe
-Xe Core
-Lunar Lake
-Panther Lake
+XE
+PantherLake
+ArrowLake
 Helicon Search
-Arrow Lake
 极空间
 铁威马
+Manus
